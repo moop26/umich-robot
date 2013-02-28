@@ -1,0 +1,12 @@
+def by_three(n):
+  if n % 3 == 0:
+		return cube(n)
+	else:
+		print False
+def cube(n):
+	return n**3
+	
+by_three(9)
+by_three(12)
+by_three(13)
+"""This fucntion sees if a number is divisible by 3, and if it is, it sends it to another function that cubes it"""
